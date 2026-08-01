@@ -23,11 +23,11 @@
 
 @layer components {
   .btn-primary {
-    @apply inline-flex items-center justify-center rounded-lg bg-primary px-4 py-2 font-semibold text-white hover:bg-opacity-90 transition-all;
+    @apply inline-flex items-center justify-center rounded-lg bg-primary px-4 py-2 font-semibold text-white transition-all hover:brightness-110;
   }
   
   .btn-secondary {
-    @apply inline-flex items-center justify-center rounded-lg bg-secondary px-4 py-2 font-semibold text-foreground hover:bg-opacity-80 transition-all border border-border;
+    @apply inline-flex items-center justify-center rounded-lg bg-secondary px-4 py-2 font-semibold text-foreground transition-all border border-border hover:bg-slate-100;
   }
   
   .card {
