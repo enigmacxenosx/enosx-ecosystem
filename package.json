@@ -1,0 +1,38 @@
+{
+  "name": "enosx-technologies-management",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^3.3.4",
+    "better-auth": "^1.0.0",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.0.0",
+    "drizzle-orm": "latest",
+    "lucide-react": "latest",
+    "next": "^16.2.0",
+    "pg": "latest",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-hook-form": "^7.48.0",
+    "tailwind-merge": "^2.2.0",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/node": "^20.10.6",
+    "@types/pg": "^8.11.1",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "autoprefixer": "^10.4.16",
+    "drizzle-kit": "latest",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^4.0.0",
+    "typescript": "^5.3.3"
+  }
+}
